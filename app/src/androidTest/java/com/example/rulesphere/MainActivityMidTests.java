@@ -66,7 +66,6 @@ public class MainActivityMidTests {
         public SearchViewSetTextAction(String text) {
             this.text = text;
         }
-
         @Override
         public Matcher<View> getConstraints() {
             return isAssignableFrom(SearchView.class);
